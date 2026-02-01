@@ -35,19 +35,17 @@ This chart illustrates a highly uneven distribution of rainfall across months, J
 
 ## 🌦️ Seasonal Rainfall Contribution
 
-The seasonal breakdown highlights the **dominance of the monsoon season**, contributing roughly **890 mm** of rainfall annually.
-Other seasons contribute significantly less, underscoring India’s strong dependence on monsoonal rainfall.
+The seasonal distribution highlights the dominance of the monsoon season contributing the bulk of annual rainfall around 890 mm). In contrast, the other seasons contribute significantly less to the annual total, which emphasizes the critical role of the monsoon.
 
-![Seasonal Rainfall Contribution](images/seasonal_rainfall_contribution.png)
+![Seasonal Rainfall Contribution](images/seasonal_distribution.png)
 
 ---
 
 ## 📉 Long-Term Trend (Rolling Average)
 
-This graph shows **annual rainfall (blue)** and a **10-year rolling average (red)**.
-While yearly rainfall fluctuates widely, the rolling average suggests a **slight downward trend after 1960**, possibly indicating climate-driven changes in rainfall distribution.
+This graph shows the annual rainfall trends in India (blue line) and a 10-year rolling average (red line) to identify long-term patterns. While annual rainfall exhibits significant variability, the 10-year rolling average indicates a slight downward trend post-1960, which suggests a possible impact of climate change on rainfall distribution. Periods of higher averages in the early 20th-century contrast with more consistent but lower averages in recent decades.
 
-![10-Year Rolling Average Trend](images/rolling_average_trend.png)
+![10-Year Rolling Average Trend](images/impact_of_climate_change.png)
 
 ---
 
@@ -59,17 +57,19 @@ The analysis identifies:
 * **Extreme rainfall years** (e.g., 1917, 1961, 1990)
 
 These events are defined using deviations from mean annual rainfall and highlight climate extremes.
+Seasonal rainfall correlations with annual totals reveal that the monsoon season (June-September) has the strongest correlation (0.93), which indicates it predominantly drives annual rainfall patterns. 
 
-![Drought and Flood Years](images/drought_flood_years.png)
+![Drought and Flood Years](images/drounght&floods.png)
 
 ---
 
 ## ⚠️ Rainfall Anomalies
 
-This graph highlights **significant rainfall anomalies**, with red points marking extreme deviations.
-Most years cluster near the mean (green dashed line), while outliers reflect strong monsoonal variability and climate events.
+![Annual Rainfall Anomalies](images/annual_rain_anomalies.png)
+This graph highlights years with significant rainfall anomalies, where annual rainfall deviated substantially from the mean. Drought years (e.g., 1905, 1965, 2002) and extreme rainfall years (e.g., 1917, 1961) are marked as red points, which showcase outliers in rainfall patterns. While most years cluster around the mean (green dashed line), the anomalies emphasize the variability in India’s rainfall, driven by factors like monsoonal fluctuations and climate events.
 
-![Rainfall Anomalies](images/rainfall_anomalies.png)
+![MonthlyRainfall Anomalies](images/monthly_rain_anomalies.png)
+This graph highlights anomalies in non-monsoon months, while less frequent, highlight periods of unusual weather patterns, potentially linked to climate variability or regional disturbances. This graph supports the uneven distribution and high dependence on monsoonal rainfall for India’s water resources.
 
 ---
 
@@ -83,7 +83,7 @@ Seasonal correlations with annual rainfall show:
 
 This confirms the **monsoon as the primary driver** of India’s annual rainfall.
 
-![Seasonal Correlation](images/seasonal_correlation.png)
+![Seasonal Correlation](images/correlation.png)
 
 ---
 
@@ -97,7 +97,7 @@ Clustering categorizes years into **Dry, Normal, and Wet**:
 
 This suggests a **possible shift in rainfall patterns** over time.
 
-![Rainfall Clusters](images/rainfall_clusters.png)
+![Rainfall Clusters](images/clustering_years.png)
 
 ---
 
@@ -111,7 +111,7 @@ The forecasting model shows:
 
 The model captures variability well but indicates a **slight future decline in rainfall**, emphasizing the need for adaptive water-resource planning.
 
-![Rainfall Forecast](images/rainfall_forecast.png)
+![Rainfall Forecast](images/prediction_for_next_20.png)
 
 ---
 
@@ -135,30 +135,6 @@ The model captures variability well but indicates a **slight future decline in r
 ---
 
 ## 📌 Future Scope
-
 * Include ENSO, IOD, and climate indices
 * Regional/state-level rainfall analysis
 * Advanced forecasting using ML models
-
----
-
-### 🚀 Final Tip
-
-After adding images:
-
-```bash
-git add README.md images/
-git commit -m "Add rainfall analysis visuals"
-git push
-```
-
----
-
-If you want, I can:
-
-* Shorten this for **resume/GitHub recruiters**
-* Add **figure numbering (Fig. 1, Fig. 2…)**
-* Write a **project abstract**
-* Convert this into a **report + README combo**
-
-Just say what you want next 👌
